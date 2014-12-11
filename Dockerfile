@@ -1,12 +1,3 @@
-#FROM ubuntu:14.04
-#MAINTAINER Andreas Jung <yet@gmx.de>
-#
-#RUN sudo apt-get -y install software-properties-common
-#RUN sudo add-apt-repository ppa:webupd8team/java
-#RUN sudo apt-get update
-#RUN sudo apt-get -y install oracle-java8-installer
-
-
 #
 # Oracle Java 8 Dockerfile
 #
