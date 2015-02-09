@@ -1,5 +1,5 @@
 build:
-	docker build -t zopyx/existdb-80 .
+	docker build -t zopyx/basex-80 .
 
 push:
-	docker push zopyx/existdb-80
+	docker push zopyx/basex-80
