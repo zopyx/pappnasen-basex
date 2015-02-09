@@ -1,9 +1,4 @@
-# Pull base image.
-#FROM dockerfile/java:oracle-java7
 FROM java:7
-# Define commonly used JAVA_HOME variable
-#ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
-
 RUN useradd -ms /bin/bash exist
 
 ENV HOME /home/exist
