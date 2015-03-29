@@ -6,7 +6,7 @@ USER exist
 WORKDIR /home/exist
 
 
-RUN wget -O basex.zip http://files.basex.org/releases/8.0/BaseX80.zip
+RUN wget -O basex.zip http://files.basex.org/releases/8.1/BaseX81.zip
 RUN unzip basex.zip
 EXPOSE 1984 8984
 CMD basex/bin/basexhttp
