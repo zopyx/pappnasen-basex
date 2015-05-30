@@ -1,8 +1,8 @@
 FROM java:8
-RUN useradd -ms /bin/bash exist
+RUN useradd -u 5555 -ms /bin/bash exist
 
 ENV HOME /home/exist
-USER exist
+USER 5555 
 WORKDIR /home/exist
 
 
