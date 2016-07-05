@@ -5,7 +5,7 @@ ENV HOME /home/exist
 USER 5555 
 WORKDIR /home/exist
 
-RUN wget -O basex.zip http://files.basex.org/releases/8.4.2/BaseX842.zip
+RUN wget -O basex.zip http://files.basex.org/releases/8.5/BaseX85.zip
 RUN unzip basex.zip
 EXPOSE 1984 8080 
 CMD basex/bin/basexhttp -h 8080
