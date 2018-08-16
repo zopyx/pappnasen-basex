@@ -1,5 +1,5 @@
 build:
-	docker build -t zopyx/basex-86 .
+	docker build -t zopyx/basex-90 .
 
 push:
-	docker push zopyx/basex-86
+	docker push zopyx/basex-90
